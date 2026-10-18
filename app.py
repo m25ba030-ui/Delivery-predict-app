@@ -79,7 +79,6 @@ if submit:
         st.error(f"🚨 Prediction: Delayed (Probability: {probability[0][1]*100:.1f}%)")
     else:
         st.success(f"✅ Prediction: No Delay (Probability: {probability[0][0]*100:.1f}%)")
-"""
 
 with open("app.py", "w") as f:
     f.write(app_code)
